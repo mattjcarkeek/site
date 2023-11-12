@@ -11,6 +11,7 @@ from sqlalchemy.orm import relationship
 from functools import wraps
 # Import your forms from the forms.py
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
+import os
 
 
 app = Flask(__name__)
