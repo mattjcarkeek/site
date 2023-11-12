@@ -10,3 +10,4 @@ WTForms
 SQLAlchemy
 psycopg2
 gunicorn
+python-dotenv
