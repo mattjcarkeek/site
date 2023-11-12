@@ -27,7 +27,7 @@ login_manager.init_app(app)
 def load_user(user_id):
     return db.get_or_404(User, user_id)
 # CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///posts.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://fluffy_data_user:HGJM3bGD3gyZDjKy1DFH3aypMbNZLQD4@dpg-cl8hv92vokcc73avsr50-a/fluffy_data'
 db = SQLAlchemy()
 db.init_app(app)
 
