@@ -10595,7 +10595,6 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 1px solid #dee2e6;
   background-color: #fff;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -10616,7 +10615,6 @@ blockquote {
 }
 @media (min-width: 992px) {
   #mainNav {
-    border-bottom: 1px solid transparent;
     background: transparent;
   }
   #mainNav .navbar-brand {
@@ -10645,7 +10643,6 @@ blockquote {
     position: fixed;
     top: -83px;
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.3);
   }
   #mainNav.is-fixed .navbar-brand {
